@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-rose-50: #fff1f2;
+  --color-rose-100: #ffe4e6;
+  --color-rose-200: #fecdd3;
+  --color-base: #fcfbf9; /* Soft cream background */
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Outfit", sans-serif;
+  --font-script: "Dancing Script", cursive;
+  --font-vintage: "Special Elite", cursive;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--color-base)] text-stone-800 font-sans antialiased overflow-x-hidden;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(340, 100%, 96%, 0.5) 0px, transparent 50%),
+      radial-gradient(at 50% 0%, hsla(28, 100%, 94%, 0.5) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(340, 100%, 96%, 0.5) 0px, transparent 50%);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+}
+
+/* Custom scrollbar for an aesthetic feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fecdd3;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fda4af;
+}
+
+.glass-panel {
+  @apply bg-white/40 backdrop-blur-md border border-white/50 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] rounded-2xl;
+}
