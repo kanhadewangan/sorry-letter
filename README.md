@@ -45,7 +45,7 @@ Because making it easy to forgive is the whole point.
 ### Installation
  
 ```bash
-git clone https://github.com/your-username/sorry-letter.git
+git clone https://github.com/devks19/sorry-letter.git
 cd sorry-letter
 npm install
 ```
