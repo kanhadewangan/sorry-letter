@@ -4,9 +4,11 @@ import ForgiveSection from '../components/ForgiveSection';
 export default function LetterPage() {
 
   const paragraphs = [
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-    "Exercitationem ipsam fugit adipisci rem ipsum, placeat pariatur praesentium tempore error veniam, vitae ut necessitatibus minima saepe commodi dolorum fugiat blanditiis quos.", 
-    "Numquam, deserunt? Maiores impedit nulla ullam obcaecati ipsam optio, sequi voluptas iste eos quisquam voluptates. Veritatis quia ducimus provident exercitationem."
+    "My dearest love,",
+    "From the moment our paths crossed, my world has been painted in softer hues and brighter light. Your laughter is the melody that dances in my heart, and your smile is the sunrise that brightens even my darkest days.",
+    "Every memory with you is a cherished page in the story of us. I am endlessly grateful for your gentle understanding, your unwavering support, and the warmth you bring to my soul.",
+    "If ever my words or actions have caused you pain, please know it was never my intention. I treasure you more than words can express, and I long to hold you close, to whisper apologies and promises of love that will never fade.",
+    "You are my heart’s greatest joy, my forever and always."
   ];
 
   const containerVariants = {
@@ -91,7 +93,7 @@ export default function LetterPage() {
 
               {/* Text content rendered ON TOP of the paper container */}
               <div className="relative z-10 w-full max-w-xl mt-0">
-                <h1 className="font-script text-5xl md:text-5xl text-stone-800 mb-10 text-center tracking-wide opacity-90 drop-shadow-sm mt-0 pt-0">{"<can be entered name here>..."}</h1>
+                <h1 className="font-script text-5xl md:text-5xl text-stone-800 mb-10 text-center tracking-wide opacity-90 drop-shadow-sm mt-0 pt-0">{"MY LOVE ❤️💞"}</h1>
 
                 <motion.div
                   variants={containerVariants}

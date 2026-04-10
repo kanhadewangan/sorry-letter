@@ -48,7 +48,7 @@ export default function ForgiveSection() {
           }}
           className="px-8 py-3 bg-rose-400 text-white rounded-full font-sans text-lg shadow-md hover:bg-rose-500 transition-colors z-10"
         >
-          Yes
+          Yes 💞
         </motion.button>
 
         {/* Evasive No Button */}
